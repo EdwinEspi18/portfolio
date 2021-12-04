@@ -3,7 +3,6 @@ import { createContext, useState } from "react";
 export const AppContext = createContext();
 
 export const AppProvider = ({ children }) => {
-  let subtitle;
   const [cla, setCla] = useState(false);
   const [modalIsOpen, setIsOpen] = useState(false);
 
